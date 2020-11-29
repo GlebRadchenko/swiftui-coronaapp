@@ -31,9 +31,14 @@ struct CountrySearchView: View {
 
                     switch viewModel.output {
                     case .empty:
-                        Text("No Results")
+                        VStack {
+                            Text("No Results")
+                            LoadingSpinner()
+                                .frame(width: 40, height: 40, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        }
                     case .loading:
-                        Text("Loading")
+                        LoadingSpinner()
+                            .frame(width: 40, height: 40, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                     case let .loaded(countries):
                         ForEach(countries, id: \.country) { country in
                             VStack(spacing: 4) {
@@ -50,11 +55,11 @@ struct CountrySearchView: View {
                             }
                             Divider()
                         }
+                        .padding()
                     }
                 }
             }
             .onAppear { viewModel.handleInput(.viewLoaded) }
-            .animation(.default)
             .navigationBarHidden(isEditing)
             .navigationTitle("Search")
         }

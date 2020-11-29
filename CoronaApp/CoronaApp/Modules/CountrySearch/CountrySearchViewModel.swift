@@ -47,6 +47,7 @@ extension CountrySearch {
             case .viewLoaded:
                 configureSubscriptions()
             case let .searchTextChanged(searchText):
+                outputSubject.send(.loading)
                 searchTextSubject.send(searchText)
             }
         }

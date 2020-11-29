@@ -20,6 +20,7 @@
 		29E12CA42573FD29007CF1EE /* Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E12CA32573FD29007CF1EE /* Publisher.swift */; };
 		29E12CA92573FE39007CF1EE /* AnyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E12CA82573FE39007CF1EE /* AnyViewModel.swift */; };
 		29E12CAE25740003007CF1EE /* DisposeBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E12CAD25740003007CF1EE /* DisposeBag.swift */; };
+		29E12CB225741316007CF1EE /* LoadingSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E12CB125741316007CF1EE /* LoadingSpinner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		29E12CA32573FD29007CF1EE /* Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Publisher.swift; sourceTree = "<group>"; };
 		29E12CA82573FE39007CF1EE /* AnyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyViewModel.swift; sourceTree = "<group>"; };
 		29E12CAD25740003007CF1EE /* DisposeBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisposeBag.swift; sourceTree = "<group>"; };
+		29E12CB125741316007CF1EE /* LoadingSpinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingSpinner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				29E12C9E2573FB11007CF1EE /* SearchBar.swift */,
+				29E12CB125741316007CF1EE /* LoadingSpinner.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 			files = (
 				29E12CA42573FD29007CF1EE /* Publisher.swift in Sources */,
 				29B387D62573DF6800737F20 /* CountrySearchView.swift in Sources */,
+				29E12CB225741316007CF1EE /* LoadingSpinner.swift in Sources */,
 				29B387D42573DF6800737F20 /* CoronaAppApp.swift in Sources */,
 				29E12CA92573FE39007CF1EE /* AnyViewModel.swift in Sources */,
 				29E12C9B2573FACE007CF1EE /* CountrySearchViewModel.swift in Sources */,
