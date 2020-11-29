@@ -8,18 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		29B387D42573DF6800737F20 /* CoronaAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B387D32573DF6800737F20 /* CoronaAppApp.swift */; };
-		29B387D62573DF6800737F20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B387D52573DF6800737F20 /* ContentView.swift */; };
+		29B387D62573DF6800737F20 /* CountrySearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B387D52573DF6800737F20 /* CountrySearchView.swift */; };
 		29B387D82573DF6A00737F20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29B387D72573DF6A00737F20 /* Assets.xcassets */; };
 		29B387DB2573DF6A00737F20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29B387DA2573DF6A00737F20 /* Preview Assets.xcassets */; };
+		29E12C792573E0D7007CF1EE /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E12C782573E0D7007CF1EE /* HTTPClient.swift */; };
+		29E12C7D2573E28E007CF1EE /* CoronaAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E12C7C2573E28E007CF1EE /* CoronaAPIService.swift */; };
+		29E12C812573E38D007CF1EE /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E12C802573E38D007CF1EE /* Container.swift */; };
+		29E12C952573EC4A007CF1EE /* SummaryResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E12C942573EC4A007CF1EE /* SummaryResponse.swift */; };
+		29E12C9B2573FACE007CF1EE /* CountrySearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E12C9A2573FACE007CF1EE /* CountrySearchViewModel.swift */; };
+		29E12C9F2573FB11007CF1EE /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E12C9E2573FB11007CF1EE /* SearchBar.swift */; };
+		29E12CA42573FD29007CF1EE /* Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E12CA32573FD29007CF1EE /* Publisher.swift */; };
+		29E12CA92573FE39007CF1EE /* AnyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E12CA82573FE39007CF1EE /* AnyViewModel.swift */; };
+		29E12CAE25740003007CF1EE /* DisposeBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E12CAD25740003007CF1EE /* DisposeBag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		29B387D02573DF6800737F20 /* CoronaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoronaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B387D32573DF6800737F20 /* CoronaAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoronaAppApp.swift; sourceTree = "<group>"; };
-		29B387D52573DF6800737F20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		29B387D52573DF6800737F20 /* CountrySearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySearchView.swift; sourceTree = "<group>"; };
 		29B387D72573DF6A00737F20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29B387DA2573DF6A00737F20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		29B387DC2573DF6A00737F20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29E12C782573E0D7007CF1EE /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		29E12C7C2573E28E007CF1EE /* CoronaAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoronaAPIService.swift; sourceTree = "<group>"; };
+		29E12C802573E38D007CF1EE /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		29E12C942573EC4A007CF1EE /* SummaryResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryResponse.swift; sourceTree = "<group>"; };
+		29E12C9A2573FACE007CF1EE /* CountrySearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySearchViewModel.swift; sourceTree = "<group>"; };
+		29E12C9E2573FB11007CF1EE /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		29E12CA32573FD29007CF1EE /* Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Publisher.swift; sourceTree = "<group>"; };
+		29E12CA82573FE39007CF1EE /* AnyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyViewModel.swift; sourceTree = "<group>"; };
+		29E12CAD25740003007CF1EE /* DisposeBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisposeBag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +70,14 @@
 		29B387D22573DF6800737F20 /* CoronaApp */ = {
 			isa = PBXGroup;
 			children = (
-				29B387D32573DF6800737F20 /* CoronaAppApp.swift */,
-				29B387D52573DF6800737F20 /* ContentView.swift */,
-				29B387D72573DF6A00737F20 /* Assets.xcassets */,
 				29B387DC2573DF6A00737F20 /* Info.plist */,
+				29B387D72573DF6A00737F20 /* Assets.xcassets */,
+				29B387E52573DF9800737F20 /* Application */,
+				29B387E32573DF8A00737F20 /* Core */,
+				29B387E42573DF8F00737F20 /* Domain */,
+				29B387E62573DFA000737F20 /* Modules */,
 				29B387D92573DF6A00737F20 /* Preview Content */,
+				29E12C9D2573FB00007CF1EE /* Views */,
 			);
 			path = CoronaApp;
 			sourceTree = "<group>";
@@ -67,6 +88,92 @@
 				29B387DA2573DF6A00737F20 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		29B387E32573DF8A00737F20 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				29E12C802573E38D007CF1EE /* Container.swift */,
+				29E12CAD25740003007CF1EE /* DisposeBag.swift */,
+				29E12C782573E0D7007CF1EE /* HTTPClient.swift */,
+				29E12CA22573FD1E007CF1EE /* Extensions */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		29B387E42573DF8F00737F20 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				29E12C922573EC25007CF1EE /* Entities */,
+				29E12C7B2573E27C007CF1EE /* Services */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		29B387E52573DF9800737F20 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				29B387D32573DF6800737F20 /* CoronaAppApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		29B387E62573DFA000737F20 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				29E12CA72573FE27007CF1EE /* Common */,
+				29E12C982573F08C007CF1EE /* CountrySearch */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		29E12C7B2573E27C007CF1EE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				29E12C7C2573E28E007CF1EE /* CoronaAPIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		29E12C922573EC25007CF1EE /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				29E12C942573EC4A007CF1EE /* SummaryResponse.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		29E12C982573F08C007CF1EE /* CountrySearch */ = {
+			isa = PBXGroup;
+			children = (
+				29B387D52573DF6800737F20 /* CountrySearchView.swift */,
+				29E12C9A2573FACE007CF1EE /* CountrySearchViewModel.swift */,
+			);
+			path = CountrySearch;
+			sourceTree = "<group>";
+		};
+		29E12C9D2573FB00007CF1EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				29E12C9E2573FB11007CF1EE /* SearchBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		29E12CA22573FD1E007CF1EE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				29E12CA32573FD29007CF1EE /* Publisher.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		29E12CA72573FE27007CF1EE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				29E12CA82573FE39007CF1EE /* AnyViewModel.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +245,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29B387D62573DF6800737F20 /* ContentView.swift in Sources */,
+				29E12CA42573FD29007CF1EE /* Publisher.swift in Sources */,
+				29B387D62573DF6800737F20 /* CountrySearchView.swift in Sources */,
 				29B387D42573DF6800737F20 /* CoronaAppApp.swift in Sources */,
+				29E12CA92573FE39007CF1EE /* AnyViewModel.swift in Sources */,
+				29E12C9B2573FACE007CF1EE /* CountrySearchViewModel.swift in Sources */,
+				29E12CAE25740003007CF1EE /* DisposeBag.swift in Sources */,
+				29E12C812573E38D007CF1EE /* Container.swift in Sources */,
+				29E12C952573EC4A007CF1EE /* SummaryResponse.swift in Sources */,
+				29E12C9F2573FB11007CF1EE /* SearchBar.swift in Sources */,
+				29E12C7D2573E28E007CF1EE /* CoronaAPIService.swift in Sources */,
+				29E12C792573E0D7007CF1EE /* HTTPClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
